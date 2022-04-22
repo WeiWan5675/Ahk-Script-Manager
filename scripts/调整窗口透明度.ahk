@@ -1,5 +1,8 @@
-Process,priority, , high  ;脚本进程优先级为高
+Process,priority, , high
 #NoTrayIcon
+#Persistent
+#SingleInstance,Force
+#NoEnv
 ;==================================================
 ;** 调整窗口透明度 win+{+} 增加 win+{-} 减少
 ;==================================================
