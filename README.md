@@ -3,6 +3,10 @@
 ### 安装使用介绍
 
 - 1 下载AutoHotkey软件
+  
+  版本需要大于1.1.33.08+, 下载地址:
+  
+  https://www.autohotkey.com/
 - 2 运行 AHK Script Manager.ahk  
 - 3 (推荐)放入开机自启动:  
   - ①右键 AHK Script Manager.ahk → 发送到桌面快捷方式  
