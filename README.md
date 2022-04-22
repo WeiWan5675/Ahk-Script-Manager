@@ -1,5 +1,3 @@
-#### 
-
 # Ahk Script Manager Of WeiWan
 
 ##安装使用介绍
