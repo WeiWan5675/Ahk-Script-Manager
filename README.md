@@ -1,6 +1,6 @@
 # Ahk Script Manager Of WeiWan
 
-##安装使用介绍
+## 安装使用介绍
 
 - 1 下载AutoHotkey软件
 - 2 运行 AHK Script Manager.ahk  
@@ -9,7 +9,7 @@
   - ②复制桌面快捷方式  
   - ③粘贴到 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\   即可
 
-##功能介绍
+## 功能介绍
 
 - !ScriptTemplate 
   
@@ -91,12 +91,12 @@
   
   https://www.autohotkey.com/docs/Hotstrings.htm
 
-##AHK管理软件使用
+## AHK管理软件使用
 
 - 文件名前缀有 "!" , 则需要手动启动
 - 文件名前缀无 "!" , 则随AHK管理软件的自动而启动
 
-##AHK语言介绍
+## AHK语言介绍
 
 - 注释符号 ";"
 
