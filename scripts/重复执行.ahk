@@ -13,8 +13,8 @@ stopFlag := true  ;设置运行Flag
 stopFlag := true
 while (stopFlag)
 { 
-    Sleep, 1000
-	Send {F5}
+    Sleep, 200
+	Send {F6}
     if (!stopFlag)
     {
         break
