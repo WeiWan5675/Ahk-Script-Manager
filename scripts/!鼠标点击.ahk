@@ -1,13 +1,13 @@
-﻿#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 SetTitleMatchMode 2
 SetKeyDelay -1
 ;执行间隔(毫秒)
-global triggerInterval:=50
+global triggerInterval:=200
 ;执行按键
-global bindKey:="F8"
+global bindKey:="RButton"
 ;以下为程序运行变量,不需要修改
 ;活动窗口标题
 activeTitle:="nil"
@@ -16,7 +16,7 @@ active_id:=00124001244723
 ;运行标识
 running:=0
 ;ctrl+F9启动, 关闭
-^F9::
+^F11::
     { 
         ;获取当前激活窗口标题
         WinGetActiveTitle, activeTitle
@@ -37,10 +37,13 @@ Return
 
 MyCommond:
     { 
+		intervaa := Random, rand, 50, 500
+        Sleep, %intervaa%
         ;获取VK,SC
         VK:=GetKeyVK(bindKey), SC:=GetKeySC(bindKey)
         PostMessage, 0x100, VK, SC,, ahk_id %active_id%
-		Sleep 10
+		intervab := Random, rand, 10, 150
+        Sleep, %intervab%
         PostMessage, 0x101, VK, SC,, ahk_id %active_id%
     }
 Return
